@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 20px;
+}
+.logo{
+    font-size: 3em;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+}
+.links>a:hover{
+    border-bottom: 3px solid;
+}
+.banner{
+    background-color: gray;
+    height: 500px;
+    font-size: 5em;
+    text-align: center;
+}
+.produtos{
+    padding: 60px;
+    text-align: center;
+}
+.produtos>.titulo{
+    font-size: 1.8em;
+}
+.lista-produtos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.item{
+    max-width: 260px;
+    margin-bottom: 30px;
+    
+}
+.item>.container>img{
+    width: 100%;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.texto-sobre-imagem {
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(26, 26, 26, 0.7); /* Cor de fundo com transparência */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.6em;
+}
+.products-text{
+    text-align: center;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.grande{
+    font-size: 1.2em;
+}
+.medio{
+    font-size: 0.8em;
+}
+.pequeno{
+    font-size: 0.7em;
+}
+.orange-text{
+    color: orangered;
+}
+.info{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-card{
+    color: white;
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info-card > ion-icon {
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+
+.linhas-produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+}
+
+.linha{
+    padding: 20px;
+}
+.blue{
+    background-color: blue;
+    grid-row: 1/3;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.depoimentos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    padding: 60px;
+    color: white;
+}
+.depoimentos-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.perfil{
+    max-width: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+}
+.depoimento-info{
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.card-depoimento{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 250px;
+    text-align: left;
+}
+.aspas{
+    font-size: 2.5em;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.cadastro{
+    padding: 60px 50px 200px 50px;
+}
+.depoimento-text{
+    max-width: 90%;
+    text-align: center;
+}
+footer{
+    background-color: white;
+}
+.cadastro{
+    background-color: gray;
+}
+.footer-text, .footer-cadastro{
+    display: inline-block;
+    max-width: 40%;
+}
+
+.footer-info {
+    position: relative;
+    max-width: 80%;
+    height: 500px;
+    top: -130px;
+    margin: auto;
+    margin-top: -50px;
+    z-index: 2;
+    background-color: white;
+    border: 20px solid white;
+}
+
+
+
+/*
+.info{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-card{
+    color: white;
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info-card > ion-icon {
+    font-size: 90px;
+    margin-bottom: 30px;
+}*/
